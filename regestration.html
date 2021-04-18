@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css ">
+    <link rel="stylesheet" href="./regestration.css">
+</head>
+
+<body>
+    <header class="header-layout-module container">
+        <div class="header-layout-logo">
+            <a class="header-layout-logo-item" href="#">
+                <img src="https://cdn.m2.ru/assets/images/m2logo.svg" width="124px" height="32px" alt="">
+            </a>
+        </div>
+
+        <nav class="header-layout-menu">
+            <div class="header-layout-menu-content">
+                <ul>
+                    <li class="header-content1">
+                        <div class="content1-dropdown">
+                            <button class="dropdown-search">Поиск</button>
+                        </div>
+                    </li>
+
+                    <li class="header-content1">
+                        <a href="#" class="content1-dropdown">
+                            <span class="span-menu">Ипотека</span>
+                        </a>
+                    </li>
+
+                    <li class="header-content1">
+                        <div class="content1-dropdown">
+                            <button class="dropdown-search">Сделка</button>
+                        </div>
+                    </li>
+
+                    <li class="header-content1">
+                        <a href="#" class="content1-dropdown">
+                            <span class="span-menu">Ремонт</span>
+                        </a>
+                    </li>
+
+                    <li class="header-content1">
+                        <div class="content1-dropdown">
+                            <button class="dropdown-search">Партнёрам</button>
+                        </div>
+                    </li>
+
+                    <li class="header-content1">
+                        <a href="#" class="content1-dropdown">
+                            <img src="https://cdn.m2.ru/assets/file-upload-server/79d4b22c91a9e7476efcd27c1c19305a.svg"
+                                alt="">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="header-layout-mobile">
+                <div class="icon">
+                    <i class="fab fa-gratipay"></i>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-bookmark"></i>
+                </div>
+                <div class="icon-add">
+                    <i class="fas fa-plus-circle"></i>
+                    <span class="new-update">Новое объявление</span>
+                </div>
+                <div class="exit">
+                    <button class="close">Войти</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="index-module-left">
+            <div class="index-module-inner">
+            <div class="index-module-left-content">
+                <div class="tabs">
+                    <button class="button-base" onclick="openCity(event, 'tab-one')">Вход</button>
+                    <button class="button-base" onclick="openCity(event, 'tab-two')">Регистрация</button>
+                    <div class="tabs-panel">
+
+                    </div>
+                </div>
+
+                <section class="tab-content is-active" id="tab-one">
+                    <div class="input-module">
+                        <input type="text" size="1" type="tel" text update="8" value placeholder="000 000-00-00">
+                    </div>
+
+                    <button type="submit" class="button-module continue">Продолжить</button>
+                    <button type="submit" class="button-module password">Забыли пароль?</button>
+
+                </section>
+
+                <section class="tab-content" id="tab-two">
+                    <div class="input-module">
+                        <input type="text" size="1" type="tel" text update="8" value placeholder="000 000-00-00">
+                    </div>
+
+                    <div class="label-checkbox">
+                        <input type="checkbox" name="is" class="checkbox"><label>Я — риелтор и хочу получить доступ к
+                            профессиональным инструментам</label>
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+
+                    <button type="submit" class="button-module continue">Продолжить</button>
+                    <button type="submit" class="button-module password">Забыли пароль?</button>
+                </section>
+
+            </div>
+            <a href="page3.html"><button type="submit" id="contentBtn" class="button-module content"></button></a>
+                    </div>
+        </div>
+
+        <div class="index-module-right-content">
+            <div class="index-right-content-bg">
+                <picture>
+                    <img class="woman"
+                        src="https://cdn.m2.ru/assets/file-upload-server/3f876dd3919b680b9097ed1c0ad75fcc.svg" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <script src="./main2.js"></script>
+</body>
+
+</html>
